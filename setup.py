@@ -9,7 +9,7 @@ SRC_REPO="reviewClassifier"
 AUTHOR_EMAIL="ainasiddiqui1235@gmail.com"
 
 setuptools.setup(
-    name=SRC_REPO,
+    name=REPO_NAME,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
@@ -21,9 +21,7 @@ setuptools.setup(
         
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
-    package_dir={
-        "":"src"
-    },
+    package_dir={"":"src" },
     packages=setuptools.find_packages(where="src")
 )
     
