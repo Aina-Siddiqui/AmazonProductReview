@@ -1,0 +1,18 @@
+transformers
+transformers[sentencepiece]
+datasets
+numpy
+pandas
+nltk
+tqdm
+pyYAML
+matplotlib 
+scikit-learn
+torch
+notebook
+python-box
+ensure
+fastapi
+uvicorn
+Jinja2
+-e .
